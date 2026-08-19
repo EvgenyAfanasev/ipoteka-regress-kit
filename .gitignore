@@ -9,3 +9,9 @@ __pycache__/
 
 # Кэш ключевой ставки ЦБ
 tmp/
+
+# Сайт документации (Starlight/Astro)
+site/node_modules/
+site/dist/
+site/.astro/
+site/src/content/docs/plan.mdx

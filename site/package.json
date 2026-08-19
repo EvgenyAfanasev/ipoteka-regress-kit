@@ -1,0 +1,16 @@
+{
+  "name": "ipoteka-regress-kit-site",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/sync-plan.mjs && astro dev",
+    "prebuild": "node scripts/sync-plan.mjs",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.41.7",
+    "astro": "^7.2.4"
+  }
+}

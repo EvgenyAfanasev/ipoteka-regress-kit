@@ -11,7 +11,7 @@ hero:
     процентов по ст. 395 ГК РФ и госпошлины.
   actions:
     - text: Читать план стратегии
-      link: /plan/
+      link: /ipoteka-regress-kit/plan/
       icon: right-arrow
       variant: primary
     - text: GitHub
@@ -69,5 +69,5 @@ $EDITOR .env                             # заполнить постоянны
 .venv/bin/python isk.py                  # исковое заявление -> docx
 ```
 
-Подробности: [план стратегии](/plan/) и
+Подробности: [план стратегии](/ipoteka-regress-kit/plan/) и
 [README репозитория](https://github.com/EvgenyAfanasev/ipoteka-regress-kit#readme).

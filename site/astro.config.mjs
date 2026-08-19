@@ -10,9 +10,6 @@ export default defineConfig({
       description:
         'Взыскание 1/2 ипотечных платежей с бывшего супруга в порядке регресса: стратегия и генераторы документов',
       defaultLocale: 'ru',
-      locales: {
-        ru: { label: 'Русский' },
-      },
       sidebar: [
         { label: 'Главная', link: '/' },
         { label: 'План стратегии', link: '/plan/' },
